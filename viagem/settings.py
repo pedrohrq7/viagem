@@ -144,3 +144,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Redirecionar para URL inicial após login (redirecionamento padrão para /accounts/profile/)
 LOGIN_REDIRECT_URL = '/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
+MEDIA_URL = '/media'
